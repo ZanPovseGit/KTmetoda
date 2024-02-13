@@ -1,0 +1,19 @@
+﻿<Window x:Class="KTmetoda.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KTmetoda"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="236" Width="557">
+    <Grid>
+        <Label Content="Vpisi parametre:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="105"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="84,86,0,0" TextWrapping="Wrap" Text="" Name="parametri" VerticalAlignment="Top" Width="164"/>
+        <Button Content="Dodaj parameter" HorizontalAlignment="Left" Margin="19,149,0,0" VerticalAlignment="Top" Width="130" Height="33" Click="Button_Click"/>
+        <Button Content="Koncani parametri" HorizontalAlignment="Left" Margin="392,149,0,0" VerticalAlignment="Top" Width="130" Height="33" Click="Button_Click_1"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="333,86,0,0" TextWrapping="Wrap" Name="teza" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Ime parametra:" HorizontalAlignment="Left" Margin="84,51,0,0" VerticalAlignment="Top" Width="93"/>
+        <Label Content="Teza parametra:" HorizontalAlignment="Left" Margin="333,51,0,0" VerticalAlignment="Top" Width="96"/>
+
+    </Grid>
+</Window>
